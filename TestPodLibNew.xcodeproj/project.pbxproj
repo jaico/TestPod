@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C817F0FB20B82202000E2228 /* TestPodLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPodLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C817F0FB20B82202000E2228 /* TestPodLibNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPodLibNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C817F0FE20B82202000E2228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C817F10020B82202000E2228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C817F10320B82202000E2228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C817F10520B82207000E2228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C817F10820B82207000E2228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C817F10A20B82207000E2228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C817F10F20B82207000E2228 /* TestPodLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C817F10F20B82207000E2228 /* TestPodLibNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodLibNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C817F11320B82207000E2228 /* TestPodLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodLibTests.swift; sourceTree = "<group>"; };
 		C817F11520B82207000E2228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C817F11A20B82207000E2228 /* TestPodLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C817F11A20B82207000E2228 /* TestPodLibNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodLibNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C817F11E20B82207000E2228 /* TestPodLibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodLibUITests.swift; sourceTree = "<group>"; };
 		C817F12020B82207000E2228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		C817F0FC20B82202000E2228 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C817F0FB20B82202000E2228 /* TestPodLib.app */,
-				C817F10F20B82207000E2228 /* TestPodLibTests.xctest */,
-				C817F11A20B82207000E2228 /* TestPodLibUITests.xctest */,
+				C817F0FB20B82202000E2228 /* TestPodLibNew.app */,
+				C817F10F20B82207000E2228 /* TestPodLibNewTests.xctest */,
+				C817F11A20B82207000E2228 /* TestPodLibNewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C817F0FA20B82202000E2228 /* TestPodLib */ = {
+		C817F0FA20B82202000E2228 /* TestPodLibNew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C817F12320B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLib" */;
+			buildConfigurationList = C817F12320B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibNew" */;
 			buildPhases = (
 				C817F0F720B82202000E2228 /* Sources */,
 				C817F0F820B82202000E2228 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = TestPodLib;
+			name = TestPodLibNew;
 			productName = TestPodLib;
-			productReference = C817F0FB20B82202000E2228 /* TestPodLib.app */;
+			productReference = C817F0FB20B82202000E2228 /* TestPodLibNew.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C817F10E20B82207000E2228 /* TestPodLibTests */ = {
+		C817F10E20B82207000E2228 /* TestPodLibNewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C817F12620B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibTests" */;
+			buildConfigurationList = C817F12620B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibNewTests" */;
 			buildPhases = (
 				C817F10B20B82207000E2228 /* Sources */,
 				C817F10C20B82207000E2228 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				C817F11120B82207000E2228 /* PBXTargetDependency */,
 			);
-			name = TestPodLibTests;
+			name = TestPodLibNewTests;
 			productName = TestPodLibTests;
-			productReference = C817F10F20B82207000E2228 /* TestPodLibTests.xctest */;
+			productReference = C817F10F20B82207000E2228 /* TestPodLibNewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C817F11920B82207000E2228 /* TestPodLibUITests */ = {
+		C817F11920B82207000E2228 /* TestPodLibNewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C817F12920B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibUITests" */;
+			buildConfigurationList = C817F12920B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibNewUITests" */;
 			buildPhases = (
 				C817F11620B82207000E2228 /* Sources */,
 				C817F11720B82207000E2228 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				C817F11C20B82207000E2228 /* PBXTargetDependency */,
 			);
-			name = TestPodLibUITests;
+			name = TestPodLibNewUITests;
 			productName = TestPodLibUITests;
-			productReference = C817F11A20B82207000E2228 /* TestPodLibUITests.xctest */;
+			productReference = C817F11A20B82207000E2228 /* TestPodLibNewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C817F0F620B82202000E2228 /* Build configuration list for PBXProject "TestPodLib" */;
+			buildConfigurationList = C817F0F620B82202000E2228 /* Build configuration list for PBXProject "TestPodLibNew" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C817F0FA20B82202000E2228 /* TestPodLib */,
-				C817F10E20B82207000E2228 /* TestPodLibTests */,
-				C817F11920B82207000E2228 /* TestPodLibUITests */,
+				C817F0FA20B82202000E2228 /* TestPodLibNew */,
+				C817F10E20B82207000E2228 /* TestPodLibNewTests */,
+				C817F11920B82207000E2228 /* TestPodLibNewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		C817F11120B82207000E2228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C817F0FA20B82202000E2228 /* TestPodLib */;
+			target = C817F0FA20B82202000E2228 /* TestPodLibNew */;
 			targetProxy = C817F11020B82207000E2228 /* PBXContainerItemProxy */;
 		};
 		C817F11C20B82207000E2228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C817F0FA20B82202000E2228 /* TestPodLib */;
+			target = C817F0FA20B82202000E2228 /* TestPodLibNew */;
 			targetProxy = C817F11B20B82207000E2228 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPodLib.app/TestPodLib";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPodLibNew.app/TestPodLibNew";
 			};
 			name = Debug;
 		};
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPodLib.app/TestPodLib";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPodLibNew.app/TestPodLibNew";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C817F0F620B82202000E2228 /* Build configuration list for PBXProject "TestPodLib" */ = {
+		C817F0F620B82202000E2228 /* Build configuration list for PBXProject "TestPodLibNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C817F12120B82207000E2228 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C817F12320B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLib" */ = {
+		C817F12320B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C817F12420B82207000E2228 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C817F12620B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibTests" */ = {
+		C817F12620B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibNewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C817F12720B82207000E2228 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C817F12920B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibUITests" */ = {
+		C817F12920B82207000E2228 /* Build configuration list for PBXNativeTarget "TestPodLibNewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C817F12A20B82207000E2228 /* Debug */,

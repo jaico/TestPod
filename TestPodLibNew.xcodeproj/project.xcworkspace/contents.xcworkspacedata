@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestPodLib.xcodeproj">
+      location = "self:/Users/jaico/Documents/TestPodLib/TestPodLibNew.xcodeproj">
    </FileRef>
 </Workspace>
